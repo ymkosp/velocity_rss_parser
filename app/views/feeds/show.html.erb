@@ -1,0 +1,11 @@
+<% provide(:title, @feed.feed_url) %>
+<div class="row">
+  <aside class="span4">
+  <section>
+  <h3>
+    <%= @feed.feed_url %>&nbsp;&nbsp;&nbsp;&nbsp;
+  </h3>
+  <%= link_to "All Feeds", feeds_path %>
+  </section>
+  </aside>
+</div>

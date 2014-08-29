@@ -1,0 +1,16 @@
+<% provide(:title, "New Rss Feed") %>
+<h1>Add Rss Feed Urls</h1>
+
+<div class='row'>
+  <div class='span6 offset3'>
+    <%= form_for(:feed, url: feeds_path) do |f| %>
+      <%= f.label :feed_url %>
+      <%= f.text_field :feed_url %>
+
+      <%= f.submit "Add Feed", class: 'btn btn-large btn-primary'%>
+
+    <% end %>
+    <%#= render :index %>
+    <%= link_to "All Feeds ", feeds_path %>
+  </div>
+</div>

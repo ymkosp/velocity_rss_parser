@@ -1,0 +1,15 @@
+<% provide(:title, "Edit Feed Url") %>
+
+<div class="row">
+  <div class="span6 offset3">
+    <%= form_for(@feed) do |f| %>
+      <%= render 'error_messages' %>
+
+      <%= f.label :feed_url %>
+      <%= f.text_field :feed_url %>
+
+      <%= f.submit "Save Feed", class: "btn btn-large btn-primary" %>
+    <% end %>
+
+  </div>
+</div>

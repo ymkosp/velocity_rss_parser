@@ -1,0 +1,19 @@
+<% provide(:title, 'All Feeds') %>
+<h1>All Feeds</h1>
+
+<%#= will_paginate %>
+
+<ol class="feeds">
+    <%#= render @feeds %>
+    <% @feeds.each do |f| %>
+      <li>
+          <%= link_to f.feed_url, '#' %>
+          <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+          <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+          <br />
+          </li>
+    <% end %>
+  </ol>
+
+<%= link_to "Add New Feed Url", new_feed_path %>
+<%#= will_paginate %>
