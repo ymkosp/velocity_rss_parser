@@ -9,6 +9,11 @@
     <% @rss_feed.items.each do |feed| %>
           <li>
                 <%= link_to feed.title, '#'%>
+
+                <br />
+
+                <%= feed.description.html_safe %>
+
             </li>
     <% end %>
   </ol>
