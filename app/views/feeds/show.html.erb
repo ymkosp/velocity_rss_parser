@@ -3,9 +3,19 @@
   <aside class="span4">
   <section>
   <h3>
-    <%= @feed.feed_url %>&nbsp;&nbsp;&nbsp;&nbsp;
+      Rss Feed Titles:
   </h3>
-  <%= link_to "All Feeds", feeds_path %>
+  <ol>
+    <% @rss_feed.items.each do |feed| %>
+          <li>
+                <%= link_to feed.title, '#'%>
+            </li>
+    <% end %>
+  </ol>
+  <br />
+  <br />
+  <%= link_to "All Feeds", feeds_path %>&nbsp;&nbsp;
+  <%= link_to "Home", root_path %>
   </section>
   </aside>
 </div>

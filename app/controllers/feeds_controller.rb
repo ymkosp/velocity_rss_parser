@@ -1,10 +1,13 @@
+require 'rss'
+
 class FeedsController < ApplicationController
   def new
     @feed = Feed.new
+    @feeds = Feed.all.order("created_at DESC") || []
   end
 
   def index
-    @feeds = Feed.all
+    @feeds = Feed.all.order("created_at DESC")
   end
 
   def edit
@@ -13,13 +16,17 @@ class FeedsController < ApplicationController
 
   def show
    @feed = Feed.find(params[:id])
+   @feed_url = @feed.feed_url
+
+   @rss_feed = RSS::Parser.parse(@feed_url, false)
+
   end
 
   def create
     @feed = Feed.new(feed_params)
     if @feed.save
       flash[:success] = "Successfully created..."
-      redirect_to @feed
+      redirect_to new_feed_path
     else
       flash[:error] = "Please check the params"
       render 'new'
@@ -30,7 +37,8 @@ class FeedsController < ApplicationController
       @feed = Feed.find(params[:id])
       if @feed.destroy
         flash[:success] = "User deleted."
-        redirect_to feeds_url
+        #redirect_to feeds_url
+        redirect_to new_feed_path
       else
         flash[:error] = "Problem in deleting feed.............."
       end

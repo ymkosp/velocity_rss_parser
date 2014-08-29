@@ -1,0 +1,3113 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:17:25 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 2580ms (Views: 2558.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:17:28 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.3ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:17:28 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:17:28 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:17:28 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:17:28 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:17:28 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:17:28 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:17:28 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:17:28 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:17:29 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.3ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 15ms (Views: 12.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:17:29 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:17:29 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:17:29 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:17:29 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:17:29 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:17:29 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:17:29 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:17:29 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:17:33 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.4ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:17:33 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:17:34 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.3ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:17:34 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.2ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/feeds/new" for 127.0.0.1 at 2014-08-29 22:17:35 +0530
+Processing by FeedsController#new as HTML
+  Rendered feeds/new.html.erb within layouts/application (54.8ms)
+Completed 200 OK in 61ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:17:36 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.3ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:21:59 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:21:59 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:21:59 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:21:59 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:21:59 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:21:59 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:21:59 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:21:59 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:21:59 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:22:00 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:01 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.2ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 61ms (Views: 60.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:02 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:22:17 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 12ms (Views: 8.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:18 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:18 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:18 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:18 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:18 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:18 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:18 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:18 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:22:39 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 152ms (Views: 132.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:39 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:39 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:39 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:39 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:22:39 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:39 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:39 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:22:39 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:23:39 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:23:39 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:23:39 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:23:39 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:23:39 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:23:39 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:23:39 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:23:39 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:23:39 +0530
+
+
+Started DELETE "/feeds/2" for 127.0.0.1 at 2014-08-29 22:23:43 +0530
+Processing by FeedsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7pkjx3Fe56wLi+qWuz9o3THkBJBELOVB+1ewwzBgIcw=", "id"=>"2"}
+  [1m[35mFeed Load (0.3ms)[0m  SELECT  `feeds`.* FROM `feeds`  WHERE `feeds`.`id` = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (31.8ms)[0m  DELETE FROM `feeds` WHERE `feeds`.`id` = 2
+  [1m[36m (145.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/feeds
+Completed 302 Found in 181ms (ActiveRecord: 177.5ms)
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:23:44 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.5ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:23:44 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:23:44 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:23:44 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:23:44 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:23:44 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:23:44 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:23:44 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:23:44 +0530
+
+
+Started DELETE "/feeds/3" for 127.0.0.1 at 2014-08-29 22:23:46 +0530
+Processing by FeedsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7pkjx3Fe56wLi+qWuz9o3THkBJBELOVB+1ewwzBgIcw=", "id"=>"3"}
+  [1m[36mFeed Load (0.3ms)[0m  [1mSELECT  `feeds`.* FROM `feeds`  WHERE `feeds`.`id` = 3 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM `feeds` WHERE `feeds`.`id` = 3[0m
+  [1m[35m (111.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/feeds
+Completed 302 Found in 114ms (ActiveRecord: 112.0ms)
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:23:46 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.5ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:23:46 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:23:46 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:23:46 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:23:46 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:23:46 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:23:46 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:23:46 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:23:46 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:25:08 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:25:08 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:25:08 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:25:08 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:25:08 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:25:08 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:25:08 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:25:08 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:25:08 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:26:08 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:26:08 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:26:08 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:26:08 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:26:08 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:26:08 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:26:08 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:26:08 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:26:08 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:27:08 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:27:08 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:27:08 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:27:08 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:27:08 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:27:08 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:27:08 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:27:08 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:27:08 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:28:08 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:28:08 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:28:08 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:28:08 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:28:08 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:28:08 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:28:08 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:28:08 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:28:08 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:29:08 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:29:08 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:29:08 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:29:08 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:29:08 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:29:08 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:29:08 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:29:08 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:29:08 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:30:08 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:30:09 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:30:09 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:30:09 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:30:09 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:30:09 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:30:09 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:30:09 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:30:09 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:31:09 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:31:09 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:31:09 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:31:09 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:31:09 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:31:09 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:31:09 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:31:09 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:31:09 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:32:09 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:32:09 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:32:09 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:32:09 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:32:09 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:32:09 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:32:09 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:32:09 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:32:09 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:33:15 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.3ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:33:15 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:33:15 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:33:15 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:33:15 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:33:15 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:33:15 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:33:15 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:33:15 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:33:40 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:33:41 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:33:41 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:33:41 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:33:41 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:33:41 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:33:41 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:33:41 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:33:41 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:34:41 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:34:42 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:34:42 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:34:42 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:34:42 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:34:42 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:34:42 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:34:42 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:34:42 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:35:42 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:35:43 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:35:43 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:35:43 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:35:43 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:35:43 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:35:43 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:35:43 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:35:43 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:36:43 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:36:44 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:36:44 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:36:44 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:36:44 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:36:44 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:36:44 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:36:44 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:36:44 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:38:37 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:38:38 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:38:38 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:38:38 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:38:38 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:38:38 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:38:38 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:38:38 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:38:38 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:39:38 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:39:39 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:39:39 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:39:39 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:39:39 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:39:39 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:39:39 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:39:39 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:39:39 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:40:39 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:40:40 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:40:40 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:40:40 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:40:40 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:40:40 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:40:40 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:40:40 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:40:40 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:41:40 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.2ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:41:41 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:41:41 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:41:41 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:41:41 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:41:41 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:41:41 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:41:41 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:41:41 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:42:41 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:42:42 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:42:42 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:42:42 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:42:42 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:42:42 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:42:42 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:42:42 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:42:42 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:43:42 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.2ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:43:43 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:43:43 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:43:43 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:43:43 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:43:43 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:43:43 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:43:43 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:43:43 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:44:43 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.3ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:44:44 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:44:44 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:44:44 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:44:44 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:44:44 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:44:44 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:44:44 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:44:44 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:45:44 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.2ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:45:45 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:45:45 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:45:45 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:45:45 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:45:45 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:45:45 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:45:45 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:45:45 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:46:03 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 23ms (Views: 17.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:46:03 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:46:03 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:46:03 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:46:03 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:46:03 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:46:03 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:46:03 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:46:03 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:46:06 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.2ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:46:06 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:46:07 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.3ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/feeds/new" for 127.0.0.1 at 2014-08-29 22:46:08 +0530
+Processing by FeedsController#new as HTML
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/new.html.erb within layouts/application (60.9ms)
+Completed 200 OK in 67ms (Views: 66.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/feeds" for 127.0.0.1 at 2014-08-29 22:46:17 +0530
+Processing by FeedsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7pkjx3Fe56wLi+qWuz9o3THkBJBELOVB+1ewwzBgIcw=", "feed"=>{"feed_url"=>"http://aaaaasssss"}, "commit"=>"Add Feed"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (26.9ms)[0m  [1mINSERT INTO `feeds` (`created_at`, `feed_url`, `updated_at`) VALUES ('2014-08-29 17:16:17', 'http://aaaaasssss', '2014-08-29 17:16:17')[0m
+  [1m[35m (314.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/feeds/6
+Completed 302 Found in 348ms (ActiveRecord: 341.9ms)
+
+
+Started GET "/feeds/6" for 127.0.0.1 at 2014-08-29 22:46:17 +0530
+Processing by FeedsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFeed Load (0.3ms)[0m  [1mSELECT  `feeds`.* FROM `feeds`  WHERE `feeds`.`id` = 6 LIMIT 1[0m
+  Rendered feeds/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:46:18 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:46:18 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:46:18 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:46:18 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:46:18 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:46:18 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:46:18 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:46:18 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:46:51 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.4ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 28ms (Views: 21.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:46:54 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:46:54 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:46:54 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:46:54 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:46:54 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:46:54 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:46:54 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:46:54 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:46:54 +0530
+
+
+Started GET "/feeds/new" for 127.0.0.1 at 2014-08-29 22:46:56 +0530
+Processing by FeedsController#new as HTML
+  [1m[35mFeed Load (0.2ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/feeds" for 127.0.0.1 at 2014-08-29 22:47:05 +0530
+Processing by FeedsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7pkjx3Fe56wLi+qWuz9o3THkBJBELOVB+1ewwzBgIcw=", "feed"=>{"feed_url"=>"https://dacacaclsslsl"}, "commit"=>"Add Feed"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `feeds` (`created_at`, `feed_url`, `updated_at`) VALUES ('2014-08-29 17:17:05', 'https://dacacaclsslsl', '2014-08-29 17:17:05')
+  [1m[36m (253.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/feeds/new
+Completed 302 Found in 258ms (ActiveRecord: 253.5ms)
+
+
+Started GET "/feeds/new" for 127.0.0.1 at 2014-08-29 22:47:06 +0530
+Processing by FeedsController#new as HTML
+  [1m[35mFeed Load (0.3ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:47:06 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:47:06 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:47:06 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:47:06 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:47:06 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:47:06 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:47:06 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:47:06 +0530
+
+
+Started GET "/feeds/new" for 127.0.0.1 at 2014-08-29 22:49:38 +0530
+Processing by FeedsController#new as HTML
+  [1m[36mFeed Load (0.3ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 25ms (Views: 18.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:49:38 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:49:38 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:49:38 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:49:38 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:49:38 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:49:38 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:49:38 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:49:38 +0530
+
+
+Started POST "/feeds" for 127.0.0.1 at 2014-08-29 22:49:55 +0530
+Processing by FeedsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7pkjx3Fe56wLi+qWuz9o3THkBJBELOVB+1ewwzBgIcw=", "feed"=>{"feed_url"=>"https://latest"}, "commit"=>"Add Feed"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (40.2ms)[0m  [1mINSERT INTO `feeds` (`created_at`, `feed_url`, `updated_at`) VALUES ('2014-08-29 17:19:55', 'https://latest', '2014-08-29 17:19:55')[0m
+  [1m[35m (119.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/feeds/new
+Completed 302 Found in 165ms (ActiveRecord: 160.0ms)
+
+
+Started GET "/feeds/new" for 127.0.0.1 at 2014-08-29 22:49:55 +0530
+Processing by FeedsController#new as HTML
+  [1m[36mFeed Load (0.8ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 21ms (Views: 18.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:49:55 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:49:55 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:49:55 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:49:55 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:49:55 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:49:55 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:49:55 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:49:55 +0530
+
+
+Started DELETE "/feeds/6" for 127.0.0.1 at 2014-08-29 22:50:02 +0530
+Processing by FeedsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7pkjx3Fe56wLi+qWuz9o3THkBJBELOVB+1ewwzBgIcw=", "id"=>"6"}
+  [1m[35mFeed Load (0.3ms)[0m  SELECT  `feeds`.* FROM `feeds`  WHERE `feeds`.`id` = 6 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM `feeds` WHERE `feeds`.`id` = 6
+  [1m[36m (44.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/feeds
+Completed 302 Found in 48ms (ActiveRecord: 45.1ms)
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:50:02 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.3ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:50:02 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:50:02 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:50:02 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:02 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:02 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:02 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:02 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:02 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:50:36 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 21ms (Views: 16.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.2ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:37 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:50:38 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`
+  Rendered feeds/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:50:38 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:50:38 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:50:38 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:38 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:38 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:38 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:38 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:38 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:50:38 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT `feeds`.* FROM `feeds`[0m
+  Rendered feeds/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:50:38 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:50:38 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:38 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:50:38 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:38 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:38 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:38 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:50:38 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:51:18 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.5ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 20ms (Views: 16.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:51:18 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:51:18 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:51:18 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:51:18 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:51:18 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:51:18 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:51:18 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:51:18 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:51:19 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:51:19 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:51:19 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:51:19 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:51:19 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:51:19 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:51:19 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:51:19 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:51:19 +0530
+
+
+Started GET "/feeds" for 127.0.0.1 at 2014-08-29 22:51:20 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 16ms (Views: 12.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:51:20 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:51:20 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:51:20 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:51:20 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:51:20 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:51:20 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:51:20 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:51:20 +0530
+
+
+Started DELETE "/feeds/5" for 127.0.0.1 at 2014-08-29 22:51:26 +0530
+Processing by FeedsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7pkjx3Fe56wLi+qWuz9o3THkBJBELOVB+1ewwzBgIcw=", "id"=>"5"}
+  [1m[36mFeed Load (0.3ms)[0m  [1mSELECT  `feeds`.* FROM `feeds`  WHERE `feeds`.`id` = 5 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM `feeds` WHERE `feeds`.`id` = 5[0m
+  [1m[35m (53.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/feeds/new
+Completed 302 Found in 57ms (ActiveRecord: 53.9ms)
+
+
+Started GET "/feeds/new" for 127.0.0.1 at 2014-08-29 22:51:26 +0530
+Processing by FeedsController#new as HTML
+  [1m[36mFeed Load (0.3ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:51:26 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:51:26 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:51:26 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:51:26 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:51:26 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:51:26 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:51:26 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:51:26 +0530
+
+
+Started GET "/feeds/new" for 127.0.0.1 at 2014-08-29 22:58:55 +0530
+Processing by FeedsController#new as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 22:58:55 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 22:58:55 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 22:58:55 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 22:58:55 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 22:58:55 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 22:58:55 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 22:58:55 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 22:58:55 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:58:57 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (16.4ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (undefined method `parse_feed_path' for #<#<Class:0x00000005a922e8>:0x000000059d8708>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__1058802834552001451_47118700'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__1058802834552001451_47118700'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (54.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 22:58:57 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (11.3ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `parse_feed_path' for #<#<Class:0x00000005a922e8>:0x000000035561f0>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__1058802834552001451_27989600'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__1058802834552001451_27989600'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:00:25 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (61.7ms)
+Completed 500 Internal Server Error in 66ms
+
+ActionView::Template::Error (undefined method `parse_feed_path' for #<#<Class:0x0000000584b728>:0x0000000584ac60>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__1058802834552001451_27989600'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__1058802834552001451_27989600'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:00:26 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (10.5ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `parse_feed_path' for #<#<Class:0x0000000584b728>:0x0000000372fa80>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__1058802834552001451_27989600'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__1058802834552001451_27989600'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:00:26 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (56.4ms)
+Completed 500 Internal Server Error in 61ms
+
+ActionView::Template::Error (undefined method `parse_feed_path' for #<#<Class:0x0000000584b728>:0x0000000585fd90>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__1058802834552001451_27989600'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__1058802834552001451_27989600'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:00:26 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (10.2ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined method `parse_feed_path' for #<#<Class:0x0000000584b728>:0x0000000372d848>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__1058802834552001451_27989600'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__1058802834552001451_27989600'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:00:29 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (61.3ms)
+Completed 500 Internal Server Error in 64ms
+
+ActionView::Template::Error (undefined method `parse_feed_path' for #<#<Class:0x0000000584b728>:0x00000005858518>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__1058802834552001451_27989600'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__1058802834552001451_27989600'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:00:49 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.2ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (18.1ms)
+Completed 500 Internal Server Error in 39ms
+
+ActionView::Template::Error (undefined method `parse_feed_path' for #<#<Class:0x0000000284b168>:0x00000002849bb0>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21352120'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21352120'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:01:49 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (15.4ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (undefined method `parse_feed_path' for #<#<Class:0x0000000284b168>:0x00000004a722c8>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21352120'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21352120'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:02:50 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.3ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (9.2ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined method `parse_feed_path' for #<#<Class:0x0000000284b168>:0x00000002a28260>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21352120'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21352120'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:03:51 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (55.7ms)
+Completed 500 Internal Server Error in 60ms
+
+ActionView::Template::Error (undefined method `parse_feed_path' for #<#<Class:0x00000004be0e20>:0x00000004be0448>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21352120'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21352120'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:03:51 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (9.2ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `parse_feed_path' for #<#<Class:0x00000004be0e20>:0x00000002a571f0>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21352120'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21352120'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:03:54 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (13.3ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `parse_feed_path' for #<#<Class:0x00000004be0e20>:0x00000004b38720>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21352120'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21352120'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (40.7ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (49.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:03:55 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.2ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (15.7ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (undefined method `parse_feed_path' for #<#<Class:0x00000004be0e20>:0x00000002830250>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21352120'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21352120'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:03:57 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (8.4ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `parse_feed_path' for #<#<Class:0x00000004be0e20>:0x00000002aea680>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21352120'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21352120'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:05:00 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.2ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (51.6ms)
+Completed 500 Internal Server Error in 54ms
+
+ActionView::Template::Error (undefined method `parse_feed_path' for #<#<Class:0x00000004be0e20>:0x00000004bd2e88>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21352120'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21352120'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:06:01 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (11.9ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (undefined method `parse_feed_path' for #<#<Class:0x00000002b723a0>:0x00000002b71298>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21352120'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21352120'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:06:24 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (12.4ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `parse_feed_path' for #<#<Class:0x000000028bcc50>:0x000000028c32a8>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21352120'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21352120'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:07:45 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (10.2ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `parse_feed_path' for #<#<Class:0x000000028bcc50>:0x00000002b67478>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21352120'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21352120'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:08:46 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (14.1ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (undefined method `parse_feed_path' for #<#<Class:0x000000028bcc50>:0x00000002723b78>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21352120'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21352120'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:09:14 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (12.9ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (undefined method `parse_feed' for #<#<Class:0x00000004ab9650>:0x00000004ab87c8>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_39185860'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_39185860'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (39.8ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (49.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:09:41 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (14.1ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `parse_feed' for #<#<Class:0x00000004ab9650>:0x00000002809d08>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed(f) %>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21031980'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21031980'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:09:42 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (9.9ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `parse_feed' for #<#<Class:0x00000004ab9650>:0x00000002b0c640>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed(f) %>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21031980'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21031980'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:09:42 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (50.0ms)
+Completed 500 Internal Server Error in 52ms
+
+ActionView::Template::Error (undefined method `parse_feed' for #<#<Class:0x00000004ab9650>:0x00000004bdea30>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed(f) %>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21031980'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21031980'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:09:42 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (11.3ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (undefined method `parse_feed' for #<#<Class:0x00000004ab9650>:0x00000002a62e60>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed(f) %>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21031980'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21031980'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:09:43 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.2ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (54.6ms)
+Completed 500 Internal Server Error in 57ms
+
+ActionView::Template::Error (undefined method `parse_feed' for #<#<Class:0x00000004ab9650>:0x00000004b6bb70>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed(f) %>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21031980'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21031980'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:09:43 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.3ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (14.8ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined method `parse_feed' for #<#<Class:0x00000004ab9650>:0x00000002a3eb00>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed(f) %>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21031980'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21031980'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:09:43 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.2ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (10.1ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `parse_feed' for #<#<Class:0x00000004ab9650>:0x00000004b433f0>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed(f) %>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21031980'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21031980'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (51.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:09:43 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (8.3ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `parse_feed' for #<#<Class:0x00000004ab9650>:0x000000027eac28>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed(f) %>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21031980'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21031980'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:09:45 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.2ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `parse_feed' for #<#<Class:0x00000004ab9650>:0x00000002ad7468>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed(f) %>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21031980'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21031980'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:09:45 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (51.6ms)
+Completed 500 Internal Server Error in 54ms
+
+ActionView::Template::Error (undefined method `parse_feed' for #<#<Class:0x00000004ab9650>:0x00000004bc9248>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed(f) %>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21031980'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21031980'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:09:45 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (12.9ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `parse_feed' for #<#<Class:0x00000004ab9650>:0x00000002a5af80>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed(f) %>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21031980'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21031980'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:09:45 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (14.1ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (undefined method `parse_feed' for #<#<Class:0x00000004ab9650>:0x00000004b59218>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed(f) %>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21031980'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21031980'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:09:46 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.3ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (11.7ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (undefined method `parse_feed' for #<#<Class:0x00000004ab9650>:0x000000029c7a28>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed(f) %>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21031980'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21031980'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:09:46 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `parse_feed' for #<#<Class:0x00000004ab9650>:0x00000004ab1040>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed(f) %>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21031980'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21031980'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:09:46 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.2ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (9.4ms)
+Completed 500 Internal Server Error in 61ms
+
+ActionView::Template::Error (undefined method `parse_feed' for #<#<Class:0x00000004ab9650>:0x00000004c2a8b8>):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, parse_feed(f) %>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_21031980'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_21031980'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:10:03 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 91ms (Views: 90.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 23:10:03 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 23:10:03 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 23:10:03 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 23:10:03 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 23:10:03 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 23:10:03 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 23:10:03 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 23:10:03 +0530
+
+
+Started GET "/feeds/parse.4" for 127.0.0.1 at 2014-08-29 23:10:12 +0530
+Processing by FeedsController#show as 
+  Parameters: {"id"=>"parse"}
+  [1m[35mFeed Load (2.6ms)[0m  SELECT  `feeds`.* FROM `feeds`  WHERE `feeds`.`id` = 0 LIMIT 1
+Completed 404 Not Found in 6ms
+
+ActiveRecord::RecordNotFound (Couldn't find Feed with 'id'=parse):
+  app/controllers/feeds_controller.rb:16:in `show'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+
+
+Started GET "/feeds/parse.4" for 127.0.0.1 at 2014-08-29 23:10:12 +0530
+Processing by FeedsController#show as 
+  Parameters: {"id"=>"parse"}
+  [1m[36mFeed Load (0.3ms)[0m  [1mSELECT  `feeds`.* FROM `feeds`  WHERE `feeds`.`id` = 0 LIMIT 1[0m
+Completed 404 Not Found in 5ms
+
+ActiveRecord::RecordNotFound (Couldn't find Feed with 'id'=parse):
+  app/controllers/feeds_controller.rb:16:in `show'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:11:31 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"feeds"} missing required keys: [:id]):
+     7:     <%#= render @feeds %>
+     8:     <% @feeds.each do |f| %>
+     9:       <li>
+    10:           <%= link_to f.feed_url, feed_path %>
+    11:           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
+    12:           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
+    13:           <br />
+  app/views/feeds/index.html.erb:10:in `block in _app_views_feeds_index_html_erb__4383237301822653965_39964060'
+  app/views/feeds/index.html.erb:8:in `_app_views_feeds_index_html_erb__4383237301822653965_39964060'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:12:50 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (48.1ms)
+Completed 200 OK in 55ms (Views: 54.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 23:12:50 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 23:12:50 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 23:12:50 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 23:12:50 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 23:12:50 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 23:12:50 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 23:12:50 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 23:12:50 +0530
+
+
+Started GET "/feeds/7" for 127.0.0.1 at 2014-08-29 23:12:52 +0530
+Processing by FeedsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mFeed Load (0.4ms)[0m  SELECT  `feeds`.* FROM `feeds`  WHERE `feeds`.`id` = 7 LIMIT 1
+  Rendered feeds/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 7.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:17:49 +0530
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 15ms (Views: 11.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:17:50 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.1ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 23:17:51 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 23:17:51 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 23:17:51 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 23:17:51 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 23:17:51 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 23:17:51 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 23:17:51 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 23:17:51 +0530
+
+
+Started GET "/feeds/new" for 127.0.0.1 at 2014-08-29 23:17:52 +0530
+Processing by FeedsController#new as HTML
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/new.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/feeds" for 127.0.0.1 at 2014-08-29 23:18:23 +0530
+Processing by FeedsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7pkjx3Fe56wLi+qWuz9o3THkBJBELOVB+1ewwzBgIcw=", "feed"=>{"feed_url"=>"https://blogs.zoho.com/feed"}, "commit"=>"Add Feed"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (28.5ms)[0m  [1mINSERT INTO `feeds` (`created_at`, `feed_url`, `updated_at`) VALUES ('2014-08-29 17:48:23', 'https://blogs.zoho.com/feed', '2014-08-29 17:48:23')[0m
+  [1m[35m (126.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/feeds/new
+Completed 302 Found in 163ms (ActiveRecord: 154.9ms)
+
+
+Started GET "/feeds/new" for 127.0.0.1 at 2014-08-29 23:18:23 +0530
+Processing by FeedsController#new as HTML
+  [1m[36mFeed Load (0.7ms)[0m  [1mSELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC[0m
+  Rendered feeds/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 23:18:23 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 23:18:23 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 23:18:23 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 23:18:23 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 23:18:23 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 23:18:23 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 23:18:23 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 23:18:23 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 23:19:17 +0530
+Processing by FeedsController#index as HTML
+  [1m[35mFeed Load (0.3ms)[0m  SELECT `feeds`.* FROM `feeds`   ORDER BY created_at DESC
+  Rendered feeds/index.html.erb within layouts/application (54.2ms)
+Completed 200 OK in 64ms (Views: 61.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 23:19:17 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 23:19:17 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 23:19:17 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 23:19:17 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 23:19:17 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 23:19:17 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 23:19:17 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 23:19:17 +0530
+
+
+Started GET "/feeds/9" for 127.0.0.1 at 2014-08-29 23:19:21 +0530
+Processing by FeedsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mFeed Load (0.7ms)[0m  [1mSELECT  `feeds`.* FROM `feeds`  WHERE `feeds`.`id` = 9 LIMIT 1[0m
+  Rendered feeds/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 2140ms (Views: 6.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/feeds/9" for 127.0.0.1 at 2014-08-29 23:23:50 +0530
+Processing by FeedsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mFeed Load (0.1ms)[0m  SELECT  `feeds`.* FROM `feeds`  WHERE `feeds`.`id` = 9 LIMIT 1
+  Rendered feeds/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2120ms (Views: 6.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 23:23:52 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 23:23:52 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 23:23:52 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 23:23:52 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 23:23:52 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 23:23:52 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 23:23:52 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 23:23:52 +0530
+
+
+Started GET "/feeds/9" for 127.0.0.1 at 2014-08-29 23:25:33 +0530
+Processing by FeedsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT  `feeds`.* FROM `feeds`  WHERE `feeds`.`id` = 9 LIMIT 1[0m
+  Rendered feeds/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2098ms (Views: 6.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 23:25:35 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 23:25:35 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 23:25:35 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 23:25:35 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 23:25:35 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 23:25:35 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 23:25:35 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 23:25:35 +0530
+
+
+Started GET "/feeds/9" for 127.0.0.1 at 2014-08-29 23:26:35 +0530
+Processing by FeedsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mFeed Load (0.2ms)[0m  SELECT  `feeds`.* FROM `feeds`  WHERE `feeds`.`id` = 9 LIMIT 1
+  Rendered feeds/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2260ms (Views: 5.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 23:26:38 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 23:26:38 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 23:26:38 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 23:26:38 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 23:26:38 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 23:26:38 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 23:26:38 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 23:26:38 +0530
+
+
+Started GET "/feeds/9" for 127.0.0.1 at 2014-08-29 23:27:38 +0530
+Processing by FeedsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mFeed Load (0.2ms)[0m  [1mSELECT  `feeds`.* FROM `feeds`  WHERE `feeds`.`id` = 9 LIMIT 1[0m
+  Rendered feeds/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2446ms (Views: 5.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 23:27:41 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 23:27:41 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 23:27:41 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 23:27:41 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 23:27:41 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 23:27:41 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 23:27:41 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 23:27:41 +0530
+
+
+Started GET "/feeds/9" for 127.0.0.1 at 2014-08-29 23:28:41 +0530
+Processing by FeedsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mFeed Load (0.2ms)[0m  SELECT  `feeds`.* FROM `feeds`  WHERE `feeds`.`id` = 9 LIMIT 1
+  Rendered feeds/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2105ms (Views: 6.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 23:28:44 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 23:28:44 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 23:28:44 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 23:28:44 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 23:28:44 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 23:28:44 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 23:28:44 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 23:28:44 +0530
+
+
+Started GET "/feeds/9" for 127.0.0.1 at 2014-08-29 23:29:44 +0530
+
+LoadError (cannot load such file -- /home/likewise-open/ZOHOCORP/malli-0370/GITREP/malli/velocity_rss_parser/config/routes.rb):
+  activesupport (4.1.5) lib/active_support/dependencies.rb:241:in `load'
+  activesupport (4.1.5) lib/active_support/dependencies.rb:241:in `block in load'
+  activesupport (4.1.5) lib/active_support/dependencies.rb:232:in `load_dependency'
+  activesupport (4.1.5) lib/active_support/dependencies.rb:241:in `load'
+  railties (4.1.5) lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  railties (4.1.5) lib/rails/application/routes_reloader.rb:40:in `each'
+  railties (4.1.5) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  railties (4.1.5) lib/rails/application/routes_reloader.rb:16:in `reload!'
+  railties (4.1.5) lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  activesupport (4.1.5) lib/active_support/file_update_checker.rb:75:in `call'
+  activesupport (4.1.5) lib/active_support/file_update_checker.rb:75:in `execute'
+  railties (4.1.5) lib/rails/application/routes_reloader.rb:7:in `execute'
+  railties (4.1.5) lib/rails/application/finisher.rb:83:in `block (2 levels) in <module:Finisher>'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:438:in `instance_exec'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:438:in `block in make_lambda'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:184:in `call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:184:in `block in simple'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:83:in `prepare!'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:71:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/likewise-open/ZOHOCORP/malli-0370/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/likewise-open/ZOHOCORP/malli-0370/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/likewise-open/ZOHOCORP/malli-0370/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/likewise-open/ZOHOCORP/malli-0370/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (90.2ms)
+
+
+Started GET "/feeds/9" for 127.0.0.1 at 2014-08-29 23:30:45 +0530
+Processing by FeedsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT  `feeds`.* FROM `feeds`  WHERE `feeds`.`id` = 9 LIMIT 1[0m
+  Rendered feeds/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 15ms (Views: 8.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-08-29 23:30:46 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 23:30:46 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 23:30:46 +0530
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2014-08-29 23:30:46 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 23:30:46 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 23:30:46 +0530
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2014-08-29 23:30:46 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 23:30:46 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 23:30:46 +0530

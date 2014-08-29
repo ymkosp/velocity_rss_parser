@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources 'feeds'
+  #get 'feeds/parse' => "feeds#parse", as: :parse_feed
 
   root 'feeds#index'
 
