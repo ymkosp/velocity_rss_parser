@@ -1,22 +1,27 @@
 <% provide(:title, "New Rss Feed") %>
-<h1>Add Rss Feed Urls</h1>
 
+
+<%= render 'layouts/header' %>
 <div class='row'>
+  <h1>Add Rss Feed Urls</h1>
   <div class='span6 offset3'>
-    <%= form_for(:feed, url: feeds_path) do |f| %>
-      <%= f.label :feed_url %>
-      <%= f.text_field :feed_url %>
 
-      <%= f.submit "Add Feed", class: 'btn btn-large btn-primary'%>
+    <%= form_for(:feed, url: feeds_path) do |f| %>
+      <%#= f.label :feed_url %>
+      <%= f.text_field :feed_url, placeholder: "Feed Url" %>&nbsp;&nbsp;
+
+      <%= f.submit "Add", class: 'btn btn-primary'%>
 
     <% end %>
     <%#= render :index %>
+</div>
+</div>
 
-    <h1>All Feeds</h1>
+    <br />
 
-    <br />
-    <br />
-    <br />
+<div class='row'>
+  <h1>All Feed Urls</h1>
+  <div class='span6 offset3'>
 
 <%#= will_paginate %>
 
