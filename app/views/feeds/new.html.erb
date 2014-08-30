@@ -1,7 +1,6 @@
 <% provide(:title, "New Rss Feed") %>
 
 
-<%= render 'layouts/header' %>
 <div class='row'>
   <h1>Add Rss Feed Urls</h1>
   <div class='span6 offset3'>
@@ -29,14 +28,12 @@
     <%#= render @feeds %>
     <% @feeds.each do |f| %>
       <li>
-          <%= link_to f.feed_url, '#' , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
+          <%= link_to f.feed_url, feed_path(f) , {"onmouseover" => "Parse this feed", "onmouseout" => "Read this feed"}%>
           <%= link_to "Edit", edit_feed_path(f) %>&nbsp;&nbsp;
           <%= link_to "delete", f, method: :delete, data: { confirm: "You sure?" } %>
           <br />
           </li>
     <% end %>
   </ol>
-    <%= link_to "All Feeds ", feeds_path %> &nbsp;&nbsp;
-    <%= link_to "Home", root_path %>
   </div>
 </div>

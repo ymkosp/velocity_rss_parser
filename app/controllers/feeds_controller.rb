@@ -29,6 +29,8 @@ class FeedsController < ApplicationController
       redirect_to new_feed_path
     else
       flash[:error] = "Please check the params"
+      puts @feed.errors.full_messages
+      @feeds = Feed.all.order("created_at DESC") || []
       render 'new'
     end
   end

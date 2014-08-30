@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   resources 'feeds'
   #get 'feeds/parse' => "feeds#parse", as: :parse_feed
 
-  root 'feeds#index'
+  root 'feeds#new'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
